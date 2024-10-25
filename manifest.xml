@@ -16,7 +16,7 @@
     <AppDomain>https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/powerpoint-hello-world</AppDomain>
   </AppDomains>
   <Hosts>
-    <Host Name="Presentation"/>
+    <Host Name="Presentation - new"/>
   </Hosts>
   <DefaultSettings>
     <SourceLocation DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/powerpoint-hello-world/taskpane.html"/>
@@ -73,10 +73,10 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/powerpoint-hello-world/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with the Hello world add-in!"/>
-        <bt:String id="CommandsGroup.Label" DefaultValue="Contoso Add-in"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Hello world"/>
-        <bt:String id="TaskpaneButton.SupertipTitle" DefaultValue="Hello world"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with super the Hello world add-in!"/>
+        <bt:String id="CommandsGroup.Label" DefaultValue="Contoso Test Add-in"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Hello world!"/>
+        <bt:String id="TaskpaneButton.SupertipTitle" DefaultValue="Hello world!"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the HOME tab and click the 'Hello world' button to get started."/>
