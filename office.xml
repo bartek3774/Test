@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns=
+  "http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:type="TaskPaneApp">
+  <Id>412ce350-4161-4ad0-a5f5-0ec9d2cd3570</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Microsoft</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Sample task pane add-in">
+    <Override Locale="en-US" Value="Project add-in"/> 
+  </DisplayName>
+  <Description DefaultValue="Describe the features of this app.">
+    <Override Locale="en-US" Value="Adds project management information to documents"/>
+  </Description>
+  <IconUrl DefaultValue="https://contoso.com.sa/ProjectApp/Topgunas-SA.png">
+    <Override Locale="en-US" Value="https://contoso.com/ProjectApp/Topgunen-US.png"/>
+  </IconUrl>
+  <AppDomains>
+    <AppDomain>http://www.projectlogin.com</AppDomain>
+    <AppDomain>http://m.projectlogin.com</AppDomain>
+    <AppDomain>http://www.projectlogin.com.sa</AppDomain>
+    <AppDomain>http://m.projectlogin.com.sa</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name = "Document"/>
+    <Host Name = "Workbook"/>
+    <Host Name = "Presentation"/>
+    <Host Name = "Project"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://contoso.com.sa/ProjectApp/ProjectAppar_SA.html">
+      <Override Locale="en-US" Value="https://contoso.com/ProjectApp/ProjectAppen-US.html"/>
+    </SourceLocation>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
