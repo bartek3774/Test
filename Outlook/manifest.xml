@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="MailApp">
+
+  <Id>f1a2b3c4-d5e6-7890-abcd-ef1234567890</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Bartłomiej Stępień</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName>Zip & Send Email</DisplayName>
+  <Description>Zip the current email and send to test@test.com</Description>
+  <IconUrl>https://yourdomain.com/assets/icon.png</.com/support</SupportUrl>
+
+  <Hosts>
+    <Host Name="Mailbox"/>
+  </Hosts>
+
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="Mailbox"/>
+    </Sets>
+  </Requirements>
+
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <MessageRead>
+        <Action>
+          <DefaultSettings>
+            <SourceLocation DefaultValue="https://yourdomain.com/taskpane.html"/>
+            <Title>Zip & Send</Title>
+            <ActionType>ShowTaskPane</ActionType>
+          </DefaultSettings>
+        </Action>
+      </MessageRead>
+    </Form>
+  </FormSettings>
+
+  <Permissions>ReadWriteItem</Permissions>
+
+  <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read"/>
