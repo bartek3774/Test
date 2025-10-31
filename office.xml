@@ -17,16 +17,16 @@
     <Override Locale="en-US" Value="https://contoso.com/ProjectApp/Topgunen-US.png"/>
   </IconUrl>
   <AppDomains>
-    <AppDomain>http://www.projectlogin.com</AppDomain>
-    <AppDomain>http://m.projectlogin.com</AppDomain>
-    <AppDomain>http://www.projectlogin.com.sa</AppDomain>
-    <AppDomain>http://m.projectlogin.com.sa</AppDomain>
+    <AppDomain>https://www.projectlogin.com</AppDomain>
+    <AppDomain>https://m.projectlogin.com</AppDomain>
+    <AppDomain>https://www.projectlogin.com.sa</AppDomain>
+    <AppDomain>https://m.projectlogin.com.sa</AppDomain>
   </AppDomains>
   <Hosts>
-    <Host Name = "Document"/>
+    <Host Name = "Document Edit"/>
     <Host Name = "Workbook"/>
     <Host Name = "Presentation"/>
-    <Host Name = "Project"/>
+    <Host Name = "Project New"/>
   </Hosts>
   <DefaultSettings>
     <SourceLocation DefaultValue="https://contoso.com.sa/ProjectApp/ProjectAppar_SA.html">
